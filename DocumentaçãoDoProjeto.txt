@@ -1,0 +1,30 @@
+Documentação Breve
+Modelagem de Dados
+O sistema tem duas entidades principais: Produto e Categoria.
+
+Produto-
+
+IDproduto (int)
+nomeProduto (String)
+descricao (String)
+qttdEstoque (int)
+precoDeCompra (double)
+precoDeVenda (double)
+categoria (String)
+
+Categoria-
+
+IDcategoria (int)
+nomeCategoria (String)
+descricaoCategoria (String)
+
+Fluxo do Sistema-
+Conexão com o Banco de Dados: A classe DBConnection gerencia a conexão com o banco de dados MySQL.
+Operações CRUD: O sistema permite CRUD completo para as entidades Produto e Categoria, gerenciando os dados no banco de dados.
+Filtros: Produtos podem ser filtrados por nome, categoria e quantidade no estoque.
+Relatórios: O sistema pode gerar relatórios sobre os produtos cadastrados, lucro e produtos com baixo estoque.
+Funcionalidades Principais
+Cadastro e Manipulação de Produtos: Cadastro, atualização, exclusão e consulta de produtos com filtros.
+Gerenciamento de Categorias: Cadastro, edição e exclusão de categorias.
+Relatórios: Exibição de relatórios com informações detalhadas dos produtos.
+Interface Gráfica: Interface gráfica construída no prompt de facil navegação.
